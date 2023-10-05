@@ -3,51 +3,73 @@
 <head>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <nav class="navbar">
-    <div class="logo">
-      <a href="#">Felix Xu</a>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#">Felix Xu</a>
+      </div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+      </ul>
     </div>
-    <ul class="menu">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-    </ul>
   </nav>
 
-  <section class="home" id="home">
-    <div class="home-content">
-      <div class="text">
-        <div class="text-one">Hello,</div>
-        <div class="text-two">I'm Felix Xu</div>
-        <div class="text-three">Monash University Student</div>
-        <div class="text-four">Software Engineer and Game Developer</div>
-      </div>
-    </div>
-  </section>
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Felix Xu</div>
+       <div class="text-three">Monash University Student</div>
+       <div class="text-four">Software Engineer and Game Developer</div>
+     </div>
+   </div>
+ </section>
 
-  <section class="about" id="about">
-    <div class="content">
-      <div class="title"><span>About Me</span></div>
-      <div class="about-details">
-        <div class="topic">Learning and Creating Is My Passion</div>
-        <p>...</p>
-      </div>
-    </div>
-  </section>
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+      <div class="topic">Learning and Creating Is My Passion</div>
+      <p>I am currently studying the Bachelor of Software Engineering at Monash University. I am currently in my third year and aspiring to become a game developer.
+        Throughout my educational journey, I have created projects and learnt from them, improving my skills to develop better projects. My goal is to inspire others to
+        also create and to either provide entertainment, information or solve real world problems. </p>
+  </div>
+  </div>
+</section>
 
-  <section class="projects" id="projects">
-    <div class="content">
-      <div class="title"><span>My Projects</span></div>
-      <p>...</p>
-      <div class="boxes">
-        <!-- Project boxes here -->
-      </div>
-      <div class="button">
-        <a href="https://github.com/XUBOI2806" class="btn">My Github</a>
-      </div>
-    </div>
-  </section>
+<!-- My Projects Section Start -->
+ <section class="projects" id="projects">
+   <div class="content">
+     <div class="title"><span>My Projects</span></div>
+     <p>Below are some of the projects I have been working on.</p>
+     <div class="boxes">
+       <div class="box">
+       <div class="topic">Websites</div>
+       <p>Some websites that I have been working on include the Scrum Website and a Travel Guide.</p>
+     </div>
+       <div class="box">
+       <div class="topic">Game Development</div>
+       <p>So far on my journey, there are three games that are in production. A cube game made with Unity, one with C++ and one with JavaScript.</p>
+     </div>
+       <div class="box">
+       <div class="topic">AR Shopping List</div>
+       <p>A project that I am currently working on for a university unit with other students where we are designing a product for a client to solve real life problems. </p>
+     </div>
+         <p>To view the following projects, click on the button below.</p>
+
+   </div>
+       <div class="button">
+           <button onclick="window.location.href='https://github.com/XUBOI2806';">My Github</button>
+       </div>
+   </div>
+ </section>
 
   <script src="script.js"></script>
 </body>
