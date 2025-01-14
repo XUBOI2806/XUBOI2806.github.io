@@ -1,127 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio - Software Engineer</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <!-- Optional: Add a favicon -->
-  <!-- <link rel="icon" href="img/favicon.ico" type="image/x-icon" /> -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Navigation / Header -->
-  <header>
-    <nav class="navbar">
-      <a href="#home" class="logo">My Portfolio</a>
-      <ul class="nav-links">
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero / Introduction Section -->
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <h1>Hello, I'm <span>Your Name</span></h1>
-      <p>I'm a Software Engineer specialized in building [front-end/back-end/full-stack] applications.</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section class="skills-section" id="skills">
-    <div class="section-header">
-      <h2>Skills</h2>
-    </div>
-    <div class="skills-container">
-      <div class="skill">
-        <h3>Languages</h3>
-        <p>Python, Java, C++, JavaScript</p>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#">Felix Xu</a>
       </div>
-      <div class="skill">
-        <h3>Frameworks</h3>
-        <p>React, Node.js, Express, Django</p>
-      </div>
-      <div class="skill">
-        <h3>Tools</h3>
-        <p>Git, Docker, AWS, Linux</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section class="projects-section" id="projects">
-    <div class="section-header">
-      <h2>Projects</h2>
-    </div>
-    <div class="projects-container">
-      <!-- Project 1 -->
-      <div class="project-card">
-        <h3>Project Name #1</h3>
-        <p>A brief description of the project. Tech stack, features, etc.</p>
-        <a href="https://github.com/yourusername/project1" target="_blank" class="btn">View Code</a>
-      </div>
-      <!-- Project 2 -->
-      <div class="project-card">
-        <h3>Project Name #2</h3>
-        <p>A brief description of the project. Tech stack, features, etc.</p>
-        <a href="https://github.com/yourusername/project2" target="_blank" class="btn">View Code</a>
-      </div>
-      <!-- Project 3 -->
-      <div class="project-card">
-        <h3>Project Name #3</h3>
-        <p>A brief description of the project. Tech stack, features, etc.</p>
-        <a href="https://github.com/yourusername/project3" target="_blank" class="btn">View Code</a>
-      </div>
-      <!-- Add more projects as needed -->
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="about-section" id="about">
-    <div class="section-header">
-      <h2>About Me</h2>
-    </div>
-    <div class="about-content">
-      <img src="img/profile.jpg" alt="Profile Picture" class="profile-pic"/>
-      <div class="about-text">
-        <p>
-          I'm a recent Software Engineering graduate with a passion for developing innovative solutions. 
-          I enjoy learning new technologies and working on challenging projects.
-        </p>
-        <p>
-          In my free time, I contribute to open-source projects, experiment with new frameworks, 
-          and collaborate with other developers on GitHub.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact-section" id="contact">
-    <div class="section-header">
-      <h2>Contact</h2>
-    </div>
-    <div class="contact-content">
-      <p>
-        Have a question or want to work together? You can reach me at:
-      </p>
-      <ul>
-        <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">@yourusername</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your Name</a></li>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
       </ul>
     </div>
-  </section>
+  </nav>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Your Name. All rights reserved.</p>
-  </footer>
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Felix Xu</div>
+       <div class="text-three">Monash University Student</div>
+       <div class="text-four">Software Engineer and Game Developer</div>
+     </div>
+   </div>
+ </section>
 
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+      <div class="topic">Learning and Creating Is My Passion</div>
+      <p>I am currently studying the Bachelor of Software Engineering at Monash University. I am currently in my third year and aspiring to become a game developer.
+        Throughout my educational journey, I have created projects and learnt from them, improving my skills to develop better projects. My goal is to inspire others to
+        also create and to either provide entertainment, information or solve real world problems. </p>
+  </div>
+  </div>
+</section>
+
+<!-- My Projects Section Start -->
+ <section class="projects" id="projects">
+   <div class="content">
+     <div class="title"><span>My Projects</span></div>
+     <p>Below are some of the projects I have been working on.</p>
+     <div class="boxes">
+       <div class="box">
+       <div class="topic">Websites</div>
+       <p>Some websites that I have been working on include the Scrum Website and a Travel Guide.</p>
+     </div>
+       <div class="box">
+       <div class="topic">Game Development</div>
+       <p>So far on my journey, there are three games that are in production. A cube game made with Unity, one with C++ and one with JavaScript.</p>
+     </div>
+       <div class="box">
+       <div class="topic">AR Shopping List</div>
+       <p>A project that I am currently working on for a university unit with other students where we are designing a product for a client to solve real life problems. </p>
+     </div>
+         <p>To view the following projects, click on the button below.</p>
+
+   </div>
+       <div class="button">
+           <button onclick="window.location.href='https://github.com/XUBOI2806';">My Github</button>
+       </div>
+   </div>
+ </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
